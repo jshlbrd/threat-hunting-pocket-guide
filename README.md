@@ -12,6 +12,9 @@ These hunts can be accomplished using specific or generalized adversary tactics,
 ### Anomaly-Driven Hunts
 Uses knowledge of abnormal or unexpected behavior (anomalies) to guide a hunt<br>
 These hunts can be accomplished using ad hoc (moment in time) or historical (long-term, "baseline") data
+### Asset-Driven Hunts
+Uses knowledge of critical or sensitive assets to guide a hunt<br>
+These hunts can be accomplished by consulting with strategic internal partners to determine which assets are most important for business operations
 
 ## Techniques
 Techniques describe methods that can be used to carry out a hunt
