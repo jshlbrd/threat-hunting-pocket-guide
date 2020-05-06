@@ -9,18 +9,18 @@ Focus the direction of a hunt
 ### Intelligence-Driven
 Uses knowledge of adversary behavior (threat intelligence) to lead a hunt<br>
 These hunts can be accomplished using specific or generalized adversary tactics, techniques, and procedures (TTPs)
-### Anomaly-Driven
-Uses knowledge of abnormal or unexpected behavior (anomalies) to lead a hunt<br>
-These hunts can be accomplished using ad hoc (moment in time) or historical (long-term, "baseline") data
 ### Asset-Driven
 Uses knowledge of critical or sensitive assets to lead a hunt<br>
 These hunts can be accomplished by consulting with strategic internal partners to determine which assets are most important for business operations
+### Anomaly-Driven
+Uses knowledge of abnormal or unexpected behavior (anomalies) to lead a hunt<br>
+These hunts can be accomplished using ad hoc (moment in time) or historical (long-term, "baseline") data
 
 ## Techniques
 Methods that can be used to perform a hunt
 ### Searching
 Uses pattern matching to identify events of interest
-### Stacking
+### Frequency Analysis (Stacking)
 Uses key-value counting to identify events of interest
 ### Visualizations
 Uses visualizations, such as box plots and heat maps, to identify events of interest
@@ -31,8 +31,8 @@ Uses machine learning, such as linear regression or random forests, to identify 
 
 ## Types of Data
 Categorizations of data that can be used during a hunt
-### Endpoint
-Contains data that describes traits of and actions taken on an endpoint<br>
+### Host
+Contains data that describes traits of and actions taken on an host<br>
 Examples: process execution, files on-disk, service modification
 ### File
 Contains data that describes traits of and actions taken by a file<br>
@@ -43,15 +43,9 @@ Examples: flow records, proxy connections, email messages
 ### Cloud
 Contains data that describes traits of and actions taken on a cloud deployment<br>
 Examples: CloudTrail (AWS), Cloud Audit (GCP), Log Analytics (Azure)
-### User
-Contains data that describes traits of and actions taken by a user<br>
-Examples: global address list, authentication events
-### Infrastructure
-Contains data that describes traits of and actions taken by infrastructure<br>
-Examples: open ports/services, DNS resolution, BGP routes
 ### Application
 Contains data that describes traits of and actions taken by an application<br>
-Examples: database transactions
+Examples: database transactions, online office software
 
 ## Frameworks
 Resources that can be used to facilitate hunts
